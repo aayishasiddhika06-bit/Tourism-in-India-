@@ -1,0 +1,14 @@
+JavaScript (`script.js`)
+function showFestivalInfo() {
+    const infoDiv = document.getElementById('festivalInfo');
+    if (infoDiv.style.display === 'none') {
+        infoDiv.style.display = 'block';
+    } else {
+        infoDiv.style.display = 'none';
+    }
+}
+Features to Add
+- *Image Slider*: For showcasing destinations.
+- *Interactive Map*: Highlight tourist spots on a map.
+- *Destination Details*: Expandable info on clicking a destination.
+- *Responsive Design*: Ensure looks good on mobile/desktop 
