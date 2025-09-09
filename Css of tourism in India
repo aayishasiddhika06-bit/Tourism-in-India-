@@ -1,0 +1,39 @@
+CSS (`style.css`)
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.destination-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.destination {
+    flex: 1;
+    min-width: 250px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
